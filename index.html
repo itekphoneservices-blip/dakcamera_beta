@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <title>DAKCAMERA Beta Application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>DAKCAMERA BETA</h1>
+  <p class="subtitle">CIPHER TECH – inahitaji waombaji 20 pekee</p>
+
+  <form id="applyForm">
+
+    <input type="text" id="name1" placeholder="Jina la Kwanza" required>
+    <input type="text" id="name2" placeholder="Jina la Pili" required>
+    <input type="text" id="name3" placeholder="Jina la Tatu" required>
+
+    <input type="tel" id="phone" placeholder="Namba ya Simu" required>
+    <input type="number" id="age" placeholder="Umri" required>
+    <input type="email" id="email" placeholder="Email (hiari)">
+
+    <div class="terms">
+      <input type="checkbox" id="terms" required>
+      <label for="terms">Nakubali vigezo na masharti ya DAKCAMERA</label>
+    </div>
+
+    <button type="submit">Tuma Ombi</button>
+  </form>
+
+  <div id="status"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
